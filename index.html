@@ -1,0 +1,118 @@
+<!--
+Author: Mohammed Mansoor
+Date :- 14-01-2018
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>WhatsApp to Unsaved Number</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Millor Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"
+	/>
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<script src="js/jquery.min.js"></script>
+	
+	<!--start-smoth-scrolling-->
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 900);
+			});
+		});
+	</script>
+	<!--start-smoth-scrolling-->
+</head>
+
+<body>
+	<!--header-->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-top">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" class="img-responsive" alt="Whatsapp to unsved number" style="350px"/></a>
+				</div>
+				<div class="top-menu">
+					<span class="menu"> </span>
+					<ul>
+						<li><a class="active hvr-shutter-out-horizontal" href="">Easy</a></li>
+						<li><a class="active hvr-shutter-out-horizontal" href="">Free</a></li>
+						<li><a class="active hvr-shutter-out-horizontal" href="">Web</a></li>
+						<li><a class="active hvr-shutter-out-horizontal" href="">Mobile</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+				<!-- script-for-menu -->
+				<script>
+					$("span.menu").click(function () {
+						$(".top-menu ul").slideToggle("slow", function () {});
+					});
+				</script>
+				<!-- script-for-menu -->
+			</div>
+			<div class="banner-bottom">
+				<div class="row">
+					<div class="col-md-6 col-xs-12 col-sm-6 col-lg-6 banner-left">
+						<!-- <h1>MOBILE</h1>
+						<h2>APP</h2>
+						<h3>MOBILE<span>STORE</span></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget consequat est. Aliquam ac nunc mauris. </p> -->
+						<h3><span>TRY</span> NOW</h3>
+						<div class="form-group">
+							<label for="mobile">WhatsApp number:</label>
+							<input type="number" class="form-control" id="number" placeholder="Mobile number with country code.">
+							<span id="hint">number with country code, Eg: 919933000000</span>
+						</div>
+						<div class="form-group">
+							<label for="message">Message:</label>
+							<textarea class="form-control" id="message" placeholder="Optional"></textarea>
+						</div>
+						<a id="send" onclick="go();" class="btn btn-success" style="cursor: default">
+								<b>Send to WhatsApp</b>&nbsp;&nbsp;
+								<img src="images/whatsapp_send.png" >
+							</a>
+						<div style="margin-top: 50px;">
+							<h3><span>MOBILE</span> VERSION</h3>
+							<br>
+							<div class="row">
+								<div class="col-md-6 col-xs-12 col-sm-6 col-lg-6">
+									<p>Mobile app comes with more features. Get it from playstore. </p>
+								</div>
+								<div class="col-md-6 col-xs-12 col-sm-6 col-lg-6	">
+									<a href="https://play.google.com/store/apps/details?id=com.mansoor.whatsapp" target="_blank">
+									<img style="width:300px;" src="images/playstore_logo.png">
+										</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-6 col-xs-12 col-sm-6 col-lg-6 banner-right">
+						<div style="float: right">
+							<img src="images/3333.png" class="img-responsive" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="js/index.js">
+</script>
+
+</html>
